@@ -200,3 +200,21 @@ img {
   border-left: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
 }
+
+/*ANSWERS*/
+
+#answers {
+  margin-top: 15px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+
+#removeIcon {
+  float: right;
+  color: #d9534f;
+}
+
+#removeIcon, span:hover {
+  color: red;
+  cursor: pointer;
+}
