@@ -7,6 +7,7 @@
     {{#each model as |question|}}
     <button class="btn btn-sm btn-danger" style="float: right;" {{action 'destroyQuestion' question}}>DELETE</button>
       <h4>{{question.title}}</h4> <small>by {{question.author}}</small>
+      {{update-question question=question updateQuestion="updateQuestion"}}
       <hr>
     {{/each}}
   </div>
