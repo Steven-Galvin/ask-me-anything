@@ -5,10 +5,12 @@
     Check out the questions below, or ask your own!
     <hr>
     {{#each model as |question|}}
+    <button class="btn btn-sm btn-danger" style="float: right;" {{action 'destroyQuestion' question}}>DELETE</button>
       <h4>{{question.title}}</h4> <small>by {{question.author}}</small>
       <hr>
     {{/each}}
   </div>
   <div class="col-md-4" id="newQuestion">
+    {{new-question saveQuestion="saveQuestion"}}
   </div>
 </div>
