@@ -1,0 +1,8 @@
+{
+  "questions": [{
+    "title": "How do I git commit?",
+    "author": "Aris Decker",
+    "body": "I'm running into an issue when I try to git commit. Everytime I try to commit something it returns a block of code listing untracked files. I'm not sure what I'm supposed to do from here. Anybody have any suggestions?"
+  }]
+
+}

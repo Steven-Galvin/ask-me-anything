@@ -17,6 +17,13 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: 'AIzaSyDnvLzUnIDqWqsgJuP9UjyTFFZlaP-Nhjg',
+      authDomain: 'proident-15b8b.firebaseapp.com',
+      databaseURL: 'https://proident-15b8b.firebaseio.com',
+      storageBucket: 'proident-15b8b.appspot.com',
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
