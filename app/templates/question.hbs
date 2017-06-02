@@ -8,9 +8,11 @@
   <h3 style="text-align: center;">Answers</h3>
   {{#each model.answers as |answer|}}
     <hr>
-    <span class="glyphicon glyphicon-remove-circle warning" aria-hidden="true" style="float: right; color: #d9534f;" {{action 'deleteAnswer' answer}}></span>
-    <h5>{{answer.author}}</h5>
+    <span id="removeIcon" class="glyphicon glyphicon-remove-circle warning" aria-hidden="true" {{action 'deleteAnswer' answer}}></span>
+    <h4>{{answer.author}}</h4>
     {{answer.body}}
+    <br>
+    <br>
     {{update-answer answer=answer updateAnswer="updateAnswer"}}
   {{/each}}
 </div>

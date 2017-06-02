@@ -32,7 +32,7 @@ This Javascript app uses the Ember framework to build a question and answer mess
 
 
 ### Landing Page:
-<!-- ![](./imgs/readme_screenshot.png "Doctor Search") -->
+![](./public/images/screenshot.png "Prodient")
 
 ### Prerequisites
 

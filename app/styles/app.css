@@ -214,7 +214,7 @@ img {
   color: #d9534f;
 }
 
-#removeIcon, span:hover {
+span:hover, #removeIcon {
   color: red;
   cursor: pointer;
 }
