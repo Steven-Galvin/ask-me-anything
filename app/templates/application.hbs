@@ -1,5 +1,25 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<header>
+  <div class="nav">
+    <ul>
+      <li class="home">{{#link-to 'index'}}Home{{/link-to}}</li>
+      <li class="about">{{#link-to 'index'}}About{{/link-to}}</li>
+    </ul>
+  </div>
+</header>
+<div class="jumbotron">
+  <h2 id="main_title">Ask Me Anything</h2>
+</div>
+<div class="container">
+  {{outlet}}
+</div>
+<footer>
+  <div class="copyright">
+    <p>© 2017 - Steven Galvin</p>
+  </div>
+  <div class="social">
+    <a href="#" class="support">Contact Us</a>
+    <a href="#" class="face">f</a>
+    <a href="#" class="tweet">t</a>
+    <a href="#" class="insta">i</a>
+  </div>
+</footer>
