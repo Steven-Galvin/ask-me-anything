@@ -2,6 +2,9 @@
 
 This Javascript app uses the Ember framework to build a question and answer message board. Similar to the likes of Reddit and Quora, it offers a platform for Junior Devs to ask questions for Senior Devs to answer. It's a great resource to learn more about the field as well as build relationships with fellow Devs, young and experienced alike.
 
+### Landing Page:
+![](./public/images/screenshot.png "Prodient")
+
 ### Planning
 
 1. Configuration/dependencies
@@ -29,10 +32,6 @@ This Javascript app uses the Ember framework to build a question and answer mess
   * Refactor code.
   * Delete unused code.
   * Make README awesome.
-
-
-### Landing Page:
-![](./public/images/screenshot.png "Prodient")
 
 ### Prerequisites
 
